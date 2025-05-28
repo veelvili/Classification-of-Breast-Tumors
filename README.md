@@ -8,21 +8,22 @@ The notebook walks through the full process of developing a classification model
 
 # Key Components
 1. Data Preprocessing
+   
 Handling missing values, encoding categorical variables, feature scaling.
 
-2. Exploratory Data Analysis (EDA)
+3. Exploratory Data Analysis (EDA)
 Visualizations and statistical summaries to understand data distribution and relationships.
 
-3. Feature Selection
+4. Feature Selection
 Identifying key predictors that contribute most to classification.
 
-4. Model Building
+5. Model Building
 Training multiple models including Logistic Regression, Random Forest, and XGBoost
 
-5. Model Evaluation
+6. Model Evaluation
 Comparing performance using accuracy, precision, recall, F1-score, confusion matrix, and ROC-AUC.
 
-6. Cross-Validation
+7. Cross-Validation
 Ensuring generalizability with k-fold validation techniques.
 
 # DEPLOYMENT 
