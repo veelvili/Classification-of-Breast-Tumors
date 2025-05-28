@@ -64,13 +64,17 @@ pyproject.toml, uv.lock	Package management and dependency locking.
 .replit	Replit-specific configuration for deployment.
 
 # How to Run (Local Setup)
+
 Install dependencies
+
 pip install -r requirements.txt
 
 Run the app
+
 streamlit run app.py
 
 # Deploy to Streamlit Cloud
+
 Push your project to GitHub.
 
 Go to Streamlit Cloud.
@@ -80,11 +84,13 @@ Connect your repo and select app.py as the entry file.
 Configure .streamlit/config.toml for appearance or caching if needed.
 
 # Replit Deployment
+
 This project is also Replit-ready (.replit and uv.lock included).
 
 Simply upload to Replit and run. Streamlit UI will launch automatically.
 
 # Purpose
+
 This deployment enables users to interactively classify tumor data through a friendly web interface. It demonstrates the integration of ML models into real-time applications and promotes awareness in medical AI.
 
 
