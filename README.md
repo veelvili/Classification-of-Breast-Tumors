@@ -1,28 +1,28 @@
 # Classification-of-Breast-Tumors
-# INTRODUCTION 
+INTRODUCTION 
 This repository contains all the steps for building a machine learning model to classify breast tumors as benign or malignant using structured medical data. It includes data preprocessing, exploratory analysis, feature selection, model training, evaluation, and performance visualization to support accurate and explainable predictions in healthcare.
 
 # NOTEBOOK_FINAL
-# Project Overview
+Project Overview
 The notebook walks through the full process of developing a classification model using supervised learning techniques. It is structured to support both beginners and intermediate learners who want to understand how to build and evaluate models in Python.
 
 # Key Components
-# 1. Data Preprocessing
+1. Data Preprocessing
 Handling missing values, encoding categorical variables, feature scaling.
 
-# 2. Exploratory Data Analysis (EDA)
+2. Exploratory Data Analysis (EDA)
 Visualizations and statistical summaries to understand data distribution and relationships.
 
-# 3. Feature Selection
+3. Feature Selection
 Identifying key predictors that contribute most to classification.
 
-# 4. Model Building
+4. Model Building
 Training multiple models including Logistic Regression, Random Forest, and XGBoost
 
-# 5. Model Evaluation
+5. Model Evaluation
 Comparing performance using accuracy, precision, recall, F1-score, confusion matrix, and ROC-AUC.
 
-# 6. Cross-Validation
+6. Cross-Validation
 Ensuring generalizability with k-fold validation techniques.
 
 # DEPLOYMENT 
