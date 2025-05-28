@@ -1,9 +1,13 @@
 # Classification-of-Breast-Tumors
+
 INTRODUCTION 
+
 This repository contains all the steps for building a machine learning model to classify breast tumors as benign or malignant using structured medical data. It includes data preprocessing, exploratory analysis, feature selection, model training, evaluation, and performance visualization to support accurate and explainable predictions in healthcare.
 
 # NOTEBOOK_FINAL
+
 Project Overview
+
 The notebook walks through the full process of developing a classification model using supervised learning techniques. It is structured to support both beginners and intermediate learners who want to understand how to build and evaluate models in Python.
 
 # Key Components
@@ -12,18 +16,23 @@ The notebook walks through the full process of developing a classification model
 Handling missing values, encoding categorical variables, feature scaling.
 
 3. Exploratory Data Analysis (EDA)
+   
 Visualizations and statistical summaries to understand data distribution and relationships.
 
-4. Feature Selection
+5. Feature Selection
+   
 Identifying key predictors that contribute most to classification.
 
-5. Model Building
+7. Model Building
+   
 Training multiple models including Logistic Regression, Random Forest, and XGBoost
 
-6. Model Evaluation
+9. Model Evaluation
+    
 Comparing performance using accuracy, precision, recall, F1-score, confusion matrix, and ROC-AUC.
 
-7. Cross-Validation
+11. Cross-Validation
+    
 Ensuring generalizability with k-fold validation techniques.
 
 # DEPLOYMENT 
@@ -31,16 +40,27 @@ This project includes a Streamlit-based web application for classifying breast t
 
 # Project Structure
 .streamlit/	Configuration for Streamlit UI, including layout and theming.
+
 assets/	Static assets such as images or data files used in the app.
+
 attached_assets/	Additional files, possibly icons or supporting visuals.
+
 app.py	Main entry point for the Streamlit app – runs the frontend interface.
+
 app_fixed.py, app.py.bak	Alternative or backup versions of the app file.
+
 model.py	Contains the machine learning model loading and prediction logic.
+
 utils.py	Helper functions for data processing and utility tasks.
+
 model_performance.py	Script to analyze and visualize model evaluation metrics.
+
 breast_cancer_awareness.py	Likely contains visual or educational content related to awareness.
+
 generated-icon.png	Icon for branding in the app UI.
+
 pyproject.toml, uv.lock	Package management and dependency locking.
+
 .replit	Replit-specific configuration for deployment.
 
 # How to Run (Local Setup)
